@@ -15,4 +15,9 @@ public class UserController {
     public String dashboard() {
         return "Successfully login";
     }
+
+    @GetMapping("/admin")
+    public String admin() {
+        return "Special login for admin";
+    }
 }
